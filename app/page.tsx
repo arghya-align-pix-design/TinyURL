@@ -34,7 +34,7 @@ export default function Dashboard() {
     const data = await res.json();
 
     if (!res.ok) {
-      setError(data.error || "Something went wrong");
+      setError(data.error || "Something went wrong"); 
     } else {
       setUrl("");
       setCode("");
